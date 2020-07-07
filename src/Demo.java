@@ -22,11 +22,6 @@ public class Demo {
         ch1.connect(u1);
         ch1.connect(u2);
 
-
-
-
-
-
         u1.sendMessage(ch1,mt1); //sends the message mt1 to all other users connected to the channel
         u2.processLastReceivedMessage(); // this should print out something like: "user2 received from user1 the message 1 with size 17"
 

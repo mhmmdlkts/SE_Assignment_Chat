@@ -11,6 +11,8 @@ public abstract class Message {
         this.id = id;
     }
 
+    public abstract void putReceiptConfMessage(ReceiptConfMessage receiptConfMessage);
+
     public abstract void processed (User user);
 
     public abstract void setContents(String content);
@@ -19,5 +21,4 @@ public abstract class Message {
 
     public abstract int getSize();
 
-    public abstract void putReceiptConfMessage(ReceiptConfMessage receiptConfMessage);
 }

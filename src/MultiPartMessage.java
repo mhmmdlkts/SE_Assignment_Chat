@@ -32,7 +32,6 @@ public class MultiPartMessage extends Message {
     public void processed(User user) {
         if (!processedBy.contains(user))
             processedBy.add(user);
-        processedBy.add(user);
         for (Message message:messageAttachment)
             message.processed(user);
     }
