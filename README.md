@@ -1,3 +1,5 @@
+# Software Engineering Assignment 1
+
 Implement a simple messaging system in Java where users can send messages to each other via
 channels. A simple message contains only one text body or only one image. A multi-part message
 contains a body text plus one or more attachments, where an attachment is a file or another
